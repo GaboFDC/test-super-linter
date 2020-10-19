@@ -1,0 +1,10 @@
+default: true
+
+line-length: false
+MD029:
+  style: one
+MD033:
+  allowed_elements:
+    - "br"
+    - "details"
+    - "summary"
