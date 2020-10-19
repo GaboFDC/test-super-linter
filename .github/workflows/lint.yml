@@ -25,3 +25,4 @@ jobs:
           LINTER_RULES_PATH: /
           MARKDOWN_CONFIG_FILE: .markdownlint.yaml
           VALIDATE_ALL_CODEBASE: false
+          ACTIONS_RUNNER_DEBUG: true
