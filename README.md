@@ -1,3 +1,3 @@
 # test-super-linter
 
-Addded changes
+Testin squash
