@@ -1,3 +1,3 @@
 # test-super-linter
 
-Testin squash
+Testing any pr
