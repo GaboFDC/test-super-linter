@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Super-Linter
-        uses: docker://github/super-linter:latest
+        uses: github/super-linter@gf_debug_multi_status
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
