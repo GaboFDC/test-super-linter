@@ -20,6 +20,8 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: test
+        run: git log --oneline -n 20
       - name: Super-Linter
         uses: github/super-linter@gf_debug_multi_status
         env:
