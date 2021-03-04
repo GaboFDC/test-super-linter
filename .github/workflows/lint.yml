@@ -23,7 +23,7 @@ jobs:
       - name: test
         run: git log --oneline -n 20
       - name: Super-Linter
-        uses: github/super-linter
+        uses: github/super-linter@master
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
