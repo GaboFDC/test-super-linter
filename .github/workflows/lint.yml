@@ -20,10 +20,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: test
-        run: git log --oneline -n 20
       - name: Super-Linter
-        uses: github/super-linter@gf_fix_diff_again
+        #uses: github/super-linter@gf_fix_diff_again
+        uses: docker://github/super-linter:latest
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
